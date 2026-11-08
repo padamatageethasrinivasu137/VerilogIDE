@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428D843A350371BA473294E /* AppState+Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5931C3F6241AFD1008BED22 /* AppState+Run.swift */; };
+		14527E39F7B572CBF7932A95 /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C710F6F079CBBD28DFC9F683 /* TerminalView.swift */; };
+		14A23D8F4D593A0C53C0C821 /* WorkspaceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D01D9DB2168CD9B1365619 /* WorkspaceViews.swift */; };
+		24683FBFE03D6D8EDD55E97D /* VerilogIDECore in Frameworks */ = {isa = PBXBuildFile; productRef = 4D8A7F95A0B2A82DDDAB1FEB /* VerilogIDECore */; };
+		2824AA128A323D82AEDBEAFA /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0982F65A98FA9182E1E386CD /* AppState.swift */; };
+		282DCAFB4784805AD51D1769 /* EditorRenderingLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F53CE96F072950AEA7FF9 /* EditorRenderingLab.swift */; };
+		2D1493E498758B0703616A28 /* VerilogIDEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9815536C0FC694C63CEF849 /* VerilogIDEApp.swift */; };
+		33DABAD52710A0E9E220FD59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D564F54D628C946678DA32 /* ContentView.swift */; };
+		3B65649F3A3EB77F5888203C /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = 06937216FAF928675E337979 /* Samples */; };
+		441D746710751BE88E05B5F8 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D932814DB836146EC57460 /* AppModels.swift */; };
+		4678957030A0AE2200827EE1 /* EditorFindReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4678956F30A0AE2200827EE1 /* EditorFindReplace.swift */; };
+		D6EA9933C13D9D6AD5E7288A /* CodeEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E648BDE6589B1141D482FD04 /* CodeEditor.swift */; };
+		DBE6E736551E696F4B1C723A /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3360681CD2B2820C4E68653E /* Sheets.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06937216FAF928675E337979 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
+		0982F65A98FA9182E1E386CD /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3360681CD2B2820C4E68653E /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		4678956F30A0AE2200827EE1 /* EditorFindReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorFindReplace.swift; sourceTree = "<group>"; };
+		62D564F54D628C946678DA32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C36FFE920F24CEDB7CFDBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BCD5BC4CDFDF0918087C782 /* VerilogIDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerilogIDE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DCD81ADA74F74DA2F18224 /* VerilogIDECore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = VerilogIDECore; sourceTree = "<group>"; };
+		9B9F53CE96F072950AEA7FF9 /* EditorRenderingLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorRenderingLab.swift; sourceTree = "<group>"; };
+		C710F6F079CBBD28DFC9F683 /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
+		D5931C3F6241AFD1008BED22 /* AppState+Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState+Run.swift"; sourceTree = "<group>"; };
+		D5D01D9DB2168CD9B1365619 /* WorkspaceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceViews.swift; sourceTree = "<group>"; };
+		E648BDE6589B1141D482FD04 /* CodeEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditor.swift; sourceTree = "<group>"; };
+		E9815536C0FC694C63CEF849 /* VerilogIDEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerilogIDEApp.swift; sourceTree = "<group>"; };
+		F5D932814DB836146EC57460 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69BE8A4D8E4D9DA4E7DB3928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24683FBFE03D6D8EDD55E97D /* VerilogIDECore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B91B0D06449B31E7D6A7261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5D932814DB836146EC57460 /* AppModels.swift */,
+				4678956F30A0AE2200827EE1 /* EditorFindReplace.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		21C1E38F281DD638A87564A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C36FFE920F24CEDB7CFDBFC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		328EC33DF3954DC9B83FA285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCD5BC4CDFDF0918087C782 /* VerilogIDE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D95C68B9BA8A69429834139 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				91DCD81ADA74F74DA2F18224 /* VerilogIDECore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		7DB9C47BE04686AD69E46592 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3360681CD2B2820C4E68653E /* Sheets.swift */,
+				D5D01D9DB2168CD9B1365619 /* WorkspaceViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C7E17F5D9685FEC8239BEE2 /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				C710F6F079CBBD28DFC9F683 /* TerminalView.swift */,
+			);
+			path = Terminal;
+			sourceTree = "<group>";
+		};
+		BAFA690237EBFC6EDA9AFD10 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				D5931C3F6241AFD1008BED22 /* AppState+Run.swift */,
+				0982F65A98FA9182E1E386CD /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		C3BBE33D2D6E650AB8728D33 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		E50290A24C49A459B43487C5 = {
+			isa = PBXGroup;
+			children = (
+				F09C7CE00DFF254AB1B0DFAF /* VerilogIDE */,
+				7D95C68B9BA8A69429834139 /* Packages */,
+				06937216FAF928675E337979 /* Samples */,
+				C3BBE33D2D6E650AB8728D33 /* Scripts */,
+				328EC33DF3954DC9B83FA285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5C8EFC3D4B413C4BEB4BA04 /* PreviewSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PreviewSupport;
+			sourceTree = "<group>";
+		};
+		E66D2B7625D06C093AD5E411 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				62D564F54D628C946678DA32 /* ContentView.swift */,
+				E9815536C0FC694C63CEF849 /* VerilogIDEApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E9A41216D0634A3D10498515 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				E648BDE6589B1141D482FD04 /* CodeEditor.swift */,
+				9B9F53CE96F072950AEA7FF9 /* EditorRenderingLab.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		F09C7CE00DFF254AB1B0DFAF /* VerilogIDE */ = {
+			isa = PBXGroup;
+			children = (
+				E66D2B7625D06C093AD5E411 /* App */,
+				BAFA690237EBFC6EDA9AFD10 /* State */,
+				0B91B0D06449B31E7D6A7261 /* Models */,
+				E9A41216D0634A3D10498515 /* Editor */,
+				9C7E17F5D9685FEC8239BEE2 /* Terminal */,
+				7DB9C47BE04686AD69E46592 /* Views */,
+				E5C8EFC3D4B413C4BEB4BA04 /* PreviewSupport */,
+				21C1E38F281DD638A87564A2 /* Resources */,
+			);
+			path = VerilogIDE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1EF521B49A9CB8A90F9AA9 /* VerilogIDE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A296CF4B7E708AB4E80076A9 /* Build configuration list for PBXNativeTarget "VerilogIDE" */;
+			buildPhases = (
+				4E57AE888889001C06A4F7E8 /* Sources */,
+				69BE8A4D8E4D9DA4E7DB3928 /* Frameworks */,
+				D6C9E8A172005E68A1DD674F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerilogIDE;
+			packageProductDependencies = (
+				4D8A7F95A0B2A82DDDAB1FEB /* VerilogIDECore */,
+			);
+			productName = VerilogIDE;
+			productReference = 8BCD5BC4CDFDF0918087C782 /* VerilogIDE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DA1EF521B49A9CB8A90F9AA9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 41A2CC2D5321B7BB2E956CA5 /* Build configuration list for PBXProject "VerilogIDE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E50290A24C49A459B43487C5;
+			packageReferences = (
+				9234241DBD2BC5F8D12B6367 /* XCLocalSwiftPackageReference "Packages/VerilogIDECore" */,
+			);
+			productRefGroup = 328EC33DF3954DC9B83FA285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1EF521B49A9CB8A90F9AA9 /* VerilogIDE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C9E8A172005E68A1DD674F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B65649F3A3EB77F5888203C /* Samples in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E57AE888889001C06A4F7E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DABAD52710A0E9E220FD59 /* ContentView.swift in Sources */,
+				2D1493E498758B0703616A28 /* VerilogIDEApp.swift in Sources */,
+				D6EA9933C13D9D6AD5E7288A /* CodeEditor.swift in Sources */,
+				282DCAFB4784805AD51D1769 /* EditorRenderingLab.swift in Sources */,
+				441D746710751BE88E05B5F8 /* AppModels.swift in Sources */,
+				4678957030A0AE2200827EE1 /* EditorFindReplace.swift in Sources */,
+				0428D843A350371BA473294E /* AppState+Run.swift in Sources */,
+				2824AA128A323D82AEDBEAFA /* AppState.swift in Sources */,
+				14527E39F7B572CBF7932A95 /* TerminalView.swift in Sources */,
+				DBE6E736551E696F4B1C723A /* Sheets.swift in Sources */,
+				14A23D8F4D593A0C53C0C821 /* WorkspaceViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2390C23663792A32108F6009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VerilogIDE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.VerilogIDE;
+				PRODUCT_NAME = VerilogIDE;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		671D9E2E95809E27B85B6A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		97B07F23AE0BC7B6A39B97AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = VerilogIDE;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.VerilogIDE;
+				PRODUCT_NAME = VerilogIDE;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AC5D6E15C21DCFD954DE2D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A2CC2D5321B7BB2E956CA5 /* Build configuration list for PBXProject "VerilogIDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671D9E2E95809E27B85B6A20 /* Debug */,
+				AC5D6E15C21DCFD954DE2D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A296CF4B7E708AB4E80076A9 /* Build configuration list for PBXNativeTarget "VerilogIDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B07F23AE0BC7B6A39B97AF /* Debug */,
+				2390C23663792A32108F6009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		9234241DBD2BC5F8D12B6367 /* XCLocalSwiftPackageReference "Packages/VerilogIDECore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/VerilogIDECore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D8A7F95A0B2A82DDDAB1FEB /* VerilogIDECore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9234241DBD2BC5F8D12B6367 /* XCLocalSwiftPackageReference "Packages/VerilogIDECore" */;
+			productName = VerilogIDECore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

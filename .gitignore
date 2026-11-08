@@ -1,0 +1,54 @@
+# Xcode
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+build/
+.build/
+.swiftpm/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Simulation outputs
+*.vcd
+*.vvp
+*.lxt
+*.lxt2
+*.fst
+*.ghw
+*.gtkw
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.log
+
+# Local source backups
+/Backups/
+
+# Xcode and macOS generated files
+.DS_Store
+DerivedData/
+build/
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager generated files
+**/.build/
+**/.swiftpm/
+
+# Additional generated files
+*.dSYM/
+*.ipa
+*.app/
